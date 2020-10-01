@@ -28,6 +28,8 @@ d) da diagonal secundária;
 e) de todos os elementos da matriz;
 f) Escreva estas somas e a matriz
 
+---
+
 3. Faça um programa em C que leia o número de andares de um prédio e, a seguir,
 para cada andar do prédio, leia o número de pessoas que entraram e saíram do
 elevador. Considere que o elevador está vazio e está subindo, os dados se
@@ -40,13 +42,17 @@ obedecido o limite de 15 passageiros.
 Após a entrada de pessoas no último andar o algoritmo deve mostrar quantas
 pessoas irão descer.
 
+---
+
 4. Foi realizada uma pesquisa de algumas características físicas da população de
 uma certa região, a qual coletaram os seguintes dados referentes a cada
 habitante para serem analisados:
+
 - sexo (masculino e feminino)
 - cor dos olhos (azuis, verdes ou castanhos)
 - cor dos cabelos (louros, castanhos, pretos)
 - idade
+
 Faça um programa em C que determine e escreva:
 a) a maior idade dos habitantes;
 b) a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35
@@ -55,9 +61,12 @@ c) a quantidade de indivíduos que tenham olhos verdes e cabelos louros;
 O final do conjunto de habitantes é reconhecido pelo valor -1 informado como
 idade.
 
+---
+
 5. Uma companhia resolveu cadastrar todos os funcionários em um Sistema
 computacional. Você foi contratado para desenvolver o sistema em questão. Será
 necessário armazenar os seguintes dados do funcionário:
+
 codigo - Código do funcionário
 nome - Nome do funcionário (com até 40 caracteres)
 cargo - Cargo do funcionário (com até 20 caracteres)
@@ -66,6 +75,7 @@ endereco - Endereço do funcionário (rua, número, cidade, estado, cep)
 telefone - Telefone de contato do funcionário
 status -“ ” (espaço em branco) -> indica funcionário ativo
 “*” (asterisco) -> indica funcionário removido
+
 O sistema deverá ter as opções para:
 a- Inclusão de funcionários
 b- Consulta de funcionários por nome ou código
@@ -73,61 +83,89 @@ c- Alteração nos dados do funcionário
 d- Exclusão de funcionário
 e- Relatório de funcionários
 
+---
+
 6. Faça um programa em C que leia um número e divida-o por dois
 (sucessivamente) até que o resultado seja menor que 1. Mostre o resultado da
 última divisão e a quantidade de divisões efetuadas.
+
+---
 
 7. Faça um programa em C que, para a progressão geométrica 3; 9; 27; 81; ...;
 6561, determine a soma de seus termos. Construa o algoritmo de maneira a
 não utilizar a fórmula de soma dos termos. Faça com que o computador gere
 cada um dos termos a ser somado.
+
 Ex.: 3; 9; 27; 81; 243; 729; 2187; 6561 => 9840
+
+---
 
 8. Sem utilizar a operação de multiplicação, escreva um programa que multiplique
 dois números inteiros. Por exemplo: 2 * 2 = 2 + 2.
 
+---
+
 9. A série de Fibonacci é formada pela sequência:
 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
 Faça um programa em C que gere e mostre a série até o vigésimo termo.
+
+---
 
 10. Escreva um programa em C que ofereça as opções para o usuário: (i) converter
 uma cadeia de caracteres de letras maiúsculas em letras minúsculas, e (ii)
 converter todos os caracteres para maiúscula.
+
 Dica 1: Para converter uma cadeia de caracteres de letras maiúsculas em letras
 minúsculas some 32 dos caracteres cujo código ASCII está entre 65 e 90.
+
 Dica 2: Para converter todos os caracteres para maiúscula subtraia 32 dos
 caracteres cujo codigo ASCII está entre 97 e 122.
+
+---
 
 11. Escreva um programa em C que recebe do usuário uma string S, um caractere
 C, e uma posição I e devolve o índice da primeira posição da string onde foi
 encontrado o caractere C. A procura deve começar a partir da posição I.
+
+---
 
 12. O codigo de César é uma das mais simples e conhecidas técnicas de
 criptografia. É um tipo de substituição na qual cada letra do texto é substituída
 por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.
 Por exemplo, com uma troca de três posições, ‘A’ seria substituído por ‘D’, ‘B’ se
 tornaria ‘E’, e assim por diante.
+
 Implemente um programa em C que faça uso desse Código de César (3
 posições), entre com uma string e retorne a string codificada.
+
 Exemplo:
 String: a ligeira raposa marrom saltou sobre o cachorro cansado
 Nova string: D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R
 FDFKRUUR FDQVDGR
 
+---
+
 13.Faça um programa que, dada uma string, diga se ela e um palíndromo ou
 não. Lembrando que um palíndromo é uma palavra que tenha a
 propriedade de poder ser lida tanto da direita para a esquerda como da
 esquerda para a direita.
+
 Exemplo: ovo
 arara
 Socorram-me, subi no ônibus em Marrocos. Anotaram a data
 da maratona 
 
+---
+
 14.Construa um programa em C que leia duas strings fornecidas pelo usuário
 e verifique se a segunda string lida está contida no final da primeira,
 retornando o resultado da verificação.
 
+---
+
 15.Faça um programa que contenha um menu com as seguintes opções:
+
 (a) Ler uma string S1 (tamanho maximo 20 caracteres);
 (b) Imprimir o tamanho da string S1;
 (c) Comparar a string S1 com uma nova string S2 fornecida pelo usuário
