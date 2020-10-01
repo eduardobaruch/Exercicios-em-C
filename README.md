@@ -19,6 +19,8 @@ O meio de transporte utilizado:
 iii. X Terra: 140km/h
 
 ---
+
+C) Escreva um programa para calcular uma expressão algébrica lido do teclado. As operações
  
  1. Escrever um programa em C que leia um vetor G(13) que é o gabarito de um
 teste de loteria esportiva, contendo os valores 1 (coluna 1), 2 (coluna 2) e 3
