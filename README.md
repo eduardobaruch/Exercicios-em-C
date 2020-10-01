@@ -20,7 +20,17 @@ iii. X Terra: 140km/h
 
 ---
 
-C) Escreva um programa para calcular uma expressão algébrica lido do teclado. As operações
+C) Escreva um programa para calcular uma expressão algébrica lido do teclado. 
+As operações permitidas são: +, -, *, /, ^ (potência) e r (raiz quadrada). 
+Leia operação como número, como letra ou outro caractere (como preferir). 
+A expressão envolve apenas uma operação com dois fatores e os números podem ser reais. Efetuar a seguinte crítica:
+
+divisão: não permitir divisão por zero;
+raiz: não permitir raiz de um número negativo ou igual a zero;
+potência: não permitir expoente negativo;
+Mostrar o resultado após a operação desejada.
+
+---
  
  1. Escrever um programa em C que leia um vetor G(13) que é o gabarito de um
 teste de loteria esportiva, contendo os valores 1 (coluna 1), 2 (coluna 2) e 3
