@@ -1,7 +1,7 @@
 # Exercicios em C
  Lista de exercicios na linguagem C
 
-A) Calculo do peso ideal de uma pessoa é dado por:
+**A)** Calculo do peso ideal de uma pessoa é dado por:
 Para homens: (72.7 * altura) – 58
 Para mulheres: (62.1 * altura) – 44.7
 
@@ -11,7 +11,7 @@ informação fornecida estiver incorreta.
 
 ---
 
-B) Escreva um programa em C para calcular o tempo necessário para fazer o percurso entre duas cidades. O usuário deve digitar:
+**B)** Escreva um programa em C para calcular o tempo necessário para fazer o percurso entre duas cidades. O usuário deve digitar:
 A distância.
 O meio de transporte utilizado:
   i. Ônibus:  70km/h
@@ -20,19 +20,19 @@ iii. X Terra: 140km/h
 
 ---
 
-C) Escreva um programa para calcular uma expressão algébrica lido do teclado. 
+**C)** Escreva um programa para calcular uma expressão algébrica lido do teclado. 
 As operações permitidas são: +, -, *, /, ^ (potência) e r (raiz quadrada). 
 Leia operação como número, como letra ou outro caractere (como preferir). 
 A expressão envolve apenas uma operação com dois fatores e os números podem ser reais. Efetuar a seguinte crítica:
 
-divisão: não permitir divisão por zero;
-raiz: não permitir raiz de um número negativo ou igual a zero;
-potência: não permitir expoente negativo;
-Mostrar o resultado após a operação desejada.
+ - divisão: não permitir divisão por zero;
+ - raiz: não permitir raiz de um número negativo ou igual a zero;
+ - potência: não permitir expoente negativo;
+ - Mostrar o resultado após a operação desejada.
 
 ---
  
- 1. Escrever um programa em C que leia um vetor G(13) que é o gabarito de um
+ **1.** Escrever um programa em C que leia um vetor G(13) que é o gabarito de um
 teste de loteria esportiva, contendo os valores 1 (coluna 1), 2 (coluna 2) e 3
 (coluna do meio). Ler, a seguir, para 10 apostadores, o respectivo número de
 seu cartão e um vetor Resposta R (13). Verificar para cada apostador o número
@@ -41,7 +41,7 @@ de acertos e escrever o número do apostador e seu número de acertos. Se tiver
 
 ---
 
-2. Escreva um programa em C que lê uma matriz M(5,5) e calcule as somas:
+**2.** Escreva um programa em C que lê uma matriz M(5,5) e calcule as somas:
 a) da linha 4 de M;
 b) da coluna 2 de M;
 c) da diagonal principal;
@@ -51,7 +51,7 @@ f) Escreva estas somas e a matriz
 
 ---
 
-3. Faça um programa em C que leia o número de andares de um prédio e, a seguir,
+**3.** Faça um programa em C que leia o número de andares de um prédio e, a seguir,
 para cada andar do prédio, leia o número de pessoas que entraram e saíram do
 elevador. Considere que o elevador está vazio e está subindo, os dados se
 referem a apenas uma “subida” do elevador e que o número de pessoas dentro
@@ -65,7 +65,7 @@ pessoas irão descer.
 
 ---
 
-4. Foi realizada uma pesquisa de algumas características físicas da população de
+**4.** Foi realizada uma pesquisa de algumas características físicas da população de
 uma certa região, a qual coletaram os seguintes dados referentes a cada
 habitante para serem analisados:
 
@@ -84,7 +84,7 @@ idade.
 
 ---
 
-5. Uma companhia resolveu cadastrar todos os funcionários em um Sistema
+**5.** Uma companhia resolveu cadastrar todos os funcionários em um Sistema
 computacional. Você foi contratado para desenvolver o sistema em questão. Será
 necessário armazenar os seguintes dados do funcionário:
 
@@ -106,13 +106,13 @@ e- Relatório de funcionários
 
 ---
 
-6. Faça um programa em C que leia um número e divida-o por dois
+**6.** Faça um programa em C que leia um número e divida-o por dois
 (sucessivamente) até que o resultado seja menor que 1. Mostre o resultado da
 última divisão e a quantidade de divisões efetuadas.
 
 ---
 
-7. Faça um programa em C que, para a progressão geométrica 3; 9; 27; 81; ...;
+**7.** Faça um programa em C que, para a progressão geométrica 3; 9; 27; 81; ...;
 6561, determine a soma de seus termos. Construa o algoritmo de maneira a
 não utilizar a fórmula de soma dos termos. Faça com que o computador gere
 cada um dos termos a ser somado.
@@ -121,19 +121,19 @@ Ex.: 3; 9; 27; 81; 243; 729; 2187; 6561 => 9840
 
 ---
 
-8. Sem utilizar a operação de multiplicação, escreva um programa que multiplique
+**8.** Sem utilizar a operação de multiplicação, escreva um programa que multiplique
 dois números inteiros. Por exemplo: 2 * 2 = 2 + 2.
 
 ---
 
-9. A série de Fibonacci é formada pela sequência:
+**9.** A série de Fibonacci é formada pela sequência:
 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 
 Faça um programa em C que gere e mostre a série até o vigésimo termo.
 
 ---
 
-10. Escreva um programa em C que ofereça as opções para o usuário: (i) converter
+**10.** Escreva um programa em C que ofereça as opções para o usuário: (i) converter
 uma cadeia de caracteres de letras maiúsculas em letras minúsculas, e (ii)
 converter todos os caracteres para maiúscula.
 
@@ -145,13 +145,13 @@ caracteres cujo codigo ASCII está entre 97 e 122.
 
 ---
 
-11. Escreva um programa em C que recebe do usuário uma string S, um caractere
+**11.** Escreva um programa em C que recebe do usuário uma string S, um caractere
 C, e uma posição I e devolve o índice da primeira posição da string onde foi
 encontrado o caractere C. A procura deve começar a partir da posição I.
 
 ---
 
-12. O codigo de César é uma das mais simples e conhecidas técnicas de
+**12.** O codigo de César é uma das mais simples e conhecidas técnicas de
 criptografia. É um tipo de substituição na qual cada letra do texto é substituída
 por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.
 Por exemplo, com uma troca de três posições, ‘A’ seria substituído por ‘D’, ‘B’ se
@@ -167,7 +167,7 @@ FDFKRUUR FDQVDGR
 
 ---
 
-13.Faça um programa que, dada uma string, diga se ela e um palíndromo ou
+**13.** Faça um programa que, dada uma string, diga se ela e um palíndromo ou
 não. Lembrando que um palíndromo é uma palavra que tenha a
 propriedade de poder ser lida tanto da direita para a esquerda como da
 esquerda para a direita.
@@ -179,27 +179,27 @@ da maratona
 
 ---
 
-14.Construa um programa em C que leia duas strings fornecidas pelo usuário
+**14.** Construa um programa em C que leia duas strings fornecidas pelo usuário
 e verifique se a segunda string lida está contida no final da primeira,
 retornando o resultado da verificação.
 
 ---
 
-15.Faça um programa que contenha um menu com as seguintes opções:
+**15.** Faça um programa que contenha um menu com as seguintes opções:
 
-(a) Ler uma string S1 (tamanho maximo 20 caracteres);
-(b) Imprimir o tamanho da string S1;
-(c) Comparar a string S1 com uma nova string S2 fornecida pelo usuário
+a) Ler uma string S1 (tamanho maximo 20 caracteres);
+b) Imprimir o tamanho da string S1;
+c) Comparar a string S1 com uma nova string S2 fornecida pelo usuário
 e imprimir o resultado da comparação;
-(d) Concatenar a string S1 com uma nova string S2 e imprimir na tela o
+d) Concatenar a string S1 com uma nova string S2 e imprimir na tela o
 resultado da concatenação;
-(e) Imprimir a string S1 de forma reversa;
-(f) Contar quantas vezes um dado caractere aparece na string S1. Esse
+e) Imprimir a string S1 de forma reversa;
+f) Contar quantas vezes um dado caractere aparece na string S1. Esse
 caractere desse ser informado pelo usuário;
-(g) Substituir a primeira ocorrência do caractere C1 da string S1 pelo
+g) Substituir a primeira ocorrência do caractere C1 da string S1 pelo
 caractere C2. Os caracteres C1 e C2 serão lidos pelo usuário;
-(h) Verificar se uma string S2 é substring de S1. A string S2 deve ser
+h) Verificar se uma string S2 é substring de S1. A string S2 deve ser
 informada pelo usuário;
-(i) Retornar uma substring da string S1. Para isso o usuário deve
+i) Retornar uma substring da string S1. Para isso o usuário deve
 informar a partir de qual posição deve ser criada a substring e qual é
 o tamanho da substring.
