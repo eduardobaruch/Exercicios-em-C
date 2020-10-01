@@ -10,6 +10,15 @@ apresentar o seu peso ideal. Mostrar mensagem de erro de a
 informação fornecida estiver incorreta.
 
 ---
+
+B) Escreva um programa em C para calcular o tempo necessário para fazer o percurso entre duas cidades. O usuário deve digitar:
+A distância.
+O meio de transporte utilizado:
+  i. Ônibus:  70km/h
+ ii. Celta:   100km/h
+iii. X Terra: 140km/h
+
+---
  
  1. Escrever um programa em C que leia um vetor G(13) que é o gabarito de um
 teste de loteria esportiva, contendo os valores 1 (coluna 1), 2 (coluna 2) e 3
