@@ -1,5 +1,15 @@
 # Exercicios em C
  Lista de exercicios na linguagem C
+
+A) Calculo do peso ideal de uma pessoa é dado por:
+Para homens: (72.7 * altura) – 58
+Para mulheres: (62.1 * altura) – 44.7
+
+Fazer um algoritmo para ler o sexo e a a altura do usuário, e
+apresentar o seu peso ideal. Mostrar mensagem de erro de a
+informação fornecida estiver incorreta.
+
+---
  
  1. Escrever um programa em C que leia um vetor G(13) que é o gabarito de um
 teste de loteria esportiva, contendo os valores 1 (coluna 1), 2 (coluna 2) e 3
@@ -7,6 +17,8 @@ teste de loteria esportiva, contendo os valores 1 (coluna 1), 2 (coluna 2) e 3
 seu cartão e um vetor Resposta R (13). Verificar para cada apostador o número
 de acertos e escrever o número do apostador e seu número de acertos. Se tiver
 13 acertos, acrescentar a mensagem: "GANHADOR, PARABENS".
+
+---
 
 2. Escreva um programa em C que lê uma matriz M(5,5) e calcule as somas:
 a) da linha 4 de M;
